@@ -1,15 +1,12 @@
 package com.eazybytes.accounts.dto;
 
-
 import lombok.Data;
 
 @Data
+public class CustomerDto {
+    private String name;
 
-public class AccountsDto {
+    private String email;
 
-    private Long accountNumber;
-
-    private String accountType;
-
-    private String  branchAddress;
+    private String mobileNumber;
 }
